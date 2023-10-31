@@ -1,0 +1,141 @@
+
+* {
+    margin:0;
+    }
+
+header {
+    background-color: #221F1F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo p {
+    color: white;
+    font-size: 40px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu > img {
+    width: 50px;
+}
+
+.empty {
+    width: 100px;
+}
+
+.food {width:1px;}
+
+
+
+.items{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    margin:auto;
+}
+
+.item {
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 10px;
+}
+
+
+.item img{
+    width: 100%;
+
+
+
+}
+
+.basement{
+    width: 10000px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.social_link img{
+    width: 60px;
+    
+
+}
+
+.social_link >a{
+    margin: 0 5px;
+
+}
+
+
+.item button{
+    background-color: white;
+    color: orange;
+    border: orange 1px solid ;
+    border-radius: 15px;
+    padding: 10px 30px;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+
+}
+
+
+.vara{
+    width: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+.contacts{
+    background-color: #221F1F;
+
+}
+
+
+.nmber{
+    color:white;
+    font-size: 30px;
+    
+
+}
+
+
+main,footer{
+    border: 5px rgb(62, 60, 60) solid;
+    border-top: none;
+
+
+}
+
+header{
+    border: 5px rgb(62, 60, 60) solid;
+
+}
